@@ -1,0 +1,24 @@
+{
+  "name": "@snooful/atomic-json-settings",
+  "version": "1.0.0",
+  "description": "Stores Snooful settings in an atomically-written JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snooful/Atomic-JSON-Settings.git"
+  },
+  "author": "haykam821",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snooful/Atomic-JSON-Settings/issues"
+  },
+  "homepage": "https://github.com/Snooful/Atomic-JSON-Settings#readme",
+  "dependencies": {
+    "@snooful/settings-base": "^1.0.2",
+    "load-json-file": "^5.1.0",
+    "write-json-file": "^3.0.2"
+  }
+}
