@@ -1,0 +1,6 @@
+{
+	"extends": "eslint-config-haykam",
+	"parserOptions": {
+		"ecmaVersion": 2018
+	}
+}
