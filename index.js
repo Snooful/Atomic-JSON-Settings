@@ -5,10 +5,10 @@ const loadJSON = require("load-json-file");
 
 class AtomicJSONSettingsManager extends SettingsManager {
 	constructor(path) {
-			super();
+		super();
 
-			this.path = path;
-			this.init();
+		this.path = path;
+		this.init();
 	}
 
 	async init() {
